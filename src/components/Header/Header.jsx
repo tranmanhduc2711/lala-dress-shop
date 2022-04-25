@@ -8,6 +8,7 @@ import {
 } from "react-bootstrap";
 import { NavLink,Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FaSearch } from "react-icons/fa";
 
 import "./header.scss";
 export default function Header() {
@@ -46,7 +47,7 @@ export default function Header() {
               CONTACT
             </Nav.Link>
             <Nav.Link as={NavLink} to="/">
-              <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" />
+              <FaSearch></FaSearch>
             </Nav.Link>
 
             <Nav.Link as={NavLink} to="/">
